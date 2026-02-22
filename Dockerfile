@@ -6,8 +6,3 @@ RUN pip install -r requirements.txt
 COPY app.py .
 EXPOSE 5000
 CMD ["python", "app.py"]
-```
-
-**File 2: `requirements.txt`**
-```
-flask==3.0.0
